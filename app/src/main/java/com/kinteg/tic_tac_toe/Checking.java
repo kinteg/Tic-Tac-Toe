@@ -15,14 +15,6 @@ public class Checking {
     }
 
     private boolean check() {
-//        Log.wtf("horizontal1()1", horizontal1() + " " + i);
-//        Log.wtf("horizontal2()1", horizontal2() + " " + i);
-//        Log.wtf("horizontal3()1", horizontal3() + " " + i);
-//        Log.wtf("vertical1()1", vertical1() + " " + i);
-//        Log.wtf("vertical2()1", vertical2() + " " + i);
-//        Log.wtf("vertical3()1", vertical3() + " " + i);
-//        Log.wtf("diagonally1()1", diagonally1() + " " + i);
-//        Log.wtf("diagonally2()1", diagonally2() + " " + i);
         return horizontal1() || horizontal2() || horizontal3()
                 || vertical1() || vertical2() || vertical3()
                 || diagonally1() || diagonally2();
